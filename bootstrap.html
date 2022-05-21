@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div style="height:1000px ">
+        <!-- header start -->
+<div class="bg-success text-light sticky-top">
+<!-- sticky-top ile navbarimiz sabitleniyor ve sayfa akisi navbar kaybolmadan devam ediyor. -->
+<ul class="text-capitalize font-weight-bold d-flex w-50 justify-content-around">
+
+<li class="h4 m-3">Home</li><!--mesela; Margin bottom mb-3, ml margin-left, marin-top mt headeri  yani navbari buyutmek icin sekil vermek icin kullanilmaktadir. 1 ile 5 arasinda  deger verilerek ayarlamalar yapilir. sadece m: margin demek,hem asagidan hem de yukaridan bosluk verir. mx dersek,  x ekseninde yatay, my dersek y ekseninde asagi dogru hareket eder., padding yazarken p yaziyorum. -->
+<li class="h4 m-3">About</li>
+<li class="h4 m-3">Contact Us</li>
+
+</ul>
+
+</div>
+
+         <!-- header end -->
+<div class="d-flex">
+        <!-- left navbar start -->
+<div class="border border-primary w-25 h=auto mt-4 ml-3 rounded" id="left-navbar-div">
+<!-- rounded = radius oluyor. önemli bilgi. sekilllerin kenarlari ovallestiriliyor. -->
+
+<button class="d-block btn btn-primary m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-secondary m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-success m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-danger m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-warning m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-info m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-dark m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-white m-2 w-75 mx-auto">Lorem</button>
+<!-- eger btn-light yaparsak beyaz ve cerrcevesiz tus görünür oluyor. ama btn-white yaparsak arka zeminde hicbir degisiklik olmuyor sadece butonun ismi yaziyor ama cercevesiz. -->
+<!-- eger negativ margin verilmesi gerekirse verilebiliyor. 1 ile 5 arasi sadece degil. -->
+</div>
+
+    <!--left navbar end  -->
+
+    <!-- body start -->
+
+
+
+
+
+<div class="w-50">
+
+<p class="display-1">Lorem ipsum </p>
+<p class="lead">Lorem ipsum dolor sit amet. </p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, porro. </p>
+<img src="./image/comm.jpg" class="d-block mx-auto img-fluid img-thumbnail p-0" alt="Avatar"></div>
+<!-- img-thumbnail p-0 resimin etrafini cok güzel yapiyor.border veriyor-->
+
+            <!-- right navbar start -->
+
+<div class="border border-primary w-25 h=auto mt-4 ml-3 rounded">
+
+
+<button class="d-block btn btn-outline-primary m-2 w-75 mx-auto bg-secondary">Lorem</button>
+<!-- burada buton rengini deigtiren outline özelligi var, ic rengi degistiriyor. m:margin w:width, bg: backgroundcolor -->
+<button class="d-block btn btn-outline-secondary m-2 w-75 mx-auto bg-danger">Lorem</button>
+<button class="d-block btn btn-outline-success m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-outline-danger m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-outline-warning m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-outline-info m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-outline-dark m-2 w-75 mx-auto">Lorem</button>
+<button class="d-block btn btn-outline-white m-2 w-75 mx-auto">Lorem</button>
+
+</div>
+           <!-- right navbar end -->
+
+</div>
+    <!-- body end -->
+</div>
+<div class="w-50 my-5 mx-auto">
+    <table class="table table-striped table-bordered table-hover table-success">
+        <!-- table-striped: satirlari beyaz ve grili yapiyor. her satira bir renk atiyor. -->
+        <!-- table-bordered ise border veriyor tabloya cerceve yapiyor kisaca  -->
+        <!-- table-hover ise tabloda hover görevi görüyor. üstüne gelince satirlarda renk degisimi oluyor. -->
+        <thead class="thead-dark">
+            <!-- tehad dark ile baslik rengi siyah oldu. -->
+            <tr class="table-primary">
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Occupation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-primary">
+                <th>1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>Web Developer</td>
+            </tr>
+            <th>2</th>
+            <td>Jacob</td>
+            <td class="bg-danger">Thornton</td> <!--bg-danger koyu kirmizi yaparken table-danger biraz daha acik kirmizi renk veriyor.-->
+            <td>Data Scientist</td>
+            <tr>
+                <th>3</th>
+                <td>Larry</td>
+                <td>The Bird</td>
+                <td>Cloud Engineer</td>
+            </tr>
+
+        </tbody>
+
+</table>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
